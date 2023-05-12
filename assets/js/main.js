@@ -1,4 +1,14 @@
+// music scripts
+function playAudio(id) {
+  var x = document.getElementById(id);
+  x.play();
+}
 
+function pauseAudio(id) {
+  var x = document.getElementById(id);
+  x.pause();
+}
+// main script
 (function() {
   "use strict";
 
